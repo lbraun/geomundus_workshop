@@ -59,6 +59,30 @@ Now you should have your basic map app running! Open the file in your browser to
 
 ### Markers
 
-### Basic polygons
+You can add [basic markers](https://leafletjs.com/reference-1.3.4.html#marker) to your map by adding the following code in the `<script>` section of your document:
+
+```js
+L.marker([38.732235, -9.160366]).addTo(map);
+```
+
+### Polygons
+
+You can add [basic polygons](https://leafletjs.com/reference-1.3.4.html#polygon) to your map by adding the following code in the `<script>` section of your document:
+
+```js
+// Create a red polygon from an array of lat-long points
+var points = [
+  [38.73098724394945, -9.159668684005737],
+  [38.73015866055299, -9.159711599349976],
+  [38.73011681265176, -9.158810377120972],
+  [38.7306022467989, -9.157898426055908],
+  [38.731414086190945, -9.157887697219849],
+  [38.73149778044903, -9.158896207809448],
+  [38.73098724394945, -9.159668684005737]
+];
+var polygon = L.polygon(points, {color: 'red'}).addTo(map);
+```
+
+
 
 ### APIs
