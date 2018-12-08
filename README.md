@@ -6,13 +6,13 @@ _A Workshop for GeoMundus 2018_
 _This excercise assumes you already have a github.com account. If not, create one here: [github.com](github.com)_
 
 1. Create a new github pages repository following this guide:
-[GitHub Pages](https://pages.github.com/)
+[GitHub Pages](https://pages.github.com/).
 
 2. Modify the index.html file in the respository you just created to look like this:
 ```html
 <html>
   <head>
-    <title>Nearst Weather Stations</title>
+    <title>GeoMundus 2018</title>
   </head>
   <body>
     <script>
